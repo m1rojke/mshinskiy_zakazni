@@ -75,7 +75,7 @@ body {
   font-weight: 900;
   color: var(--text);
   text-shadow: 0 0 15px #9d822b;
-  margin-bottom: 200px;
+  margin-bottom: 350px;
 }
 .layers__title {
   font-size: calc(var(--index) * 2.65);
@@ -134,16 +134,24 @@ body {
   grid-template-rows: 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 5px;
+  background-color: #0064005e;
+  border-radius: 10px;
 }
 
 .div1 {
   grid-area: 1 / 1 / 2 / 2;
+  margin-top: 10px;
+  align-self: center;
 }
 .div2 {
   grid-area: 1 / 2 / 2 / 3;
-  background-color: #39993cc7;
+  background-color: #00000069;
   border-radius: 10px;
   font-size: x-large;
   align-self: center;
-	margin-right: 20px;
+  margin-right: 20px;
+}
+
+iframe {
+  border-radius: 10px;
 }
