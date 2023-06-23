@@ -7,7 +7,3 @@ ScrollSmoother.create({
 	content: '.content'
 })
 
-function binaryArrayToNumber(arr) {
-  console.log(arr)
-}
-binaryArrayToNumber([0,0,0,1])
