@@ -152,3 +152,43 @@ body {
   background-image: url(../img/640px-BuboBuboIUCN.svg.png);
   background-position: center;
 }
+
+.fl {
+  position: fixed;
+  background-color: #ffffffaa;
+  width: 10%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+a {
+  color: #000000;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 800;
+}
+a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: rgb(227, 227, 227);
+  transition: width 0.7s;
+}
+
+a:hover:after {
+  content: "";
+  width: 105%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  background-color: red;
+  transition: width 0.7s;
+}
