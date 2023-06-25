@@ -146,6 +146,7 @@ body {
   border-radius: 10px;
   font-size: x-large;
   align-self: center;
+  margin-left: 40px;
 }
 .div1 {
   grid-area: 1 / 2 / 2 / 3;

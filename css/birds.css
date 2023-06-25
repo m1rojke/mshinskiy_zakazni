@@ -122,3 +122,33 @@ body {
   background-image: url(../img/640px-CiconiaNigraIUCN2019_2.png);
   background-position: center;
 }
+
+.gagara {
+  background-image: url(../img/gagara.png);
+  background-size: contain;
+}
+
+.gagara_area {
+  background-image: url(../img/640px-GaviaArcticaIUCNver2019-2.png);
+  background-position: bottom;
+}
+
+.b_vip {
+  background-image: url(../img/kronshnep.png);
+  background-size: contain;
+}
+
+.b_vip__area {
+  background-image: url(../img/640px-NumeniusArquata.png);
+  background-position: center;
+}
+
+.filin {
+  background-image: url(../img/bubo_bubo.png);
+  background-size: contain;
+}
+
+.filin_area {
+  background-image: url(../img/640px-BuboBuboIUCN.svg.png);
+  background-position: center;
+}
